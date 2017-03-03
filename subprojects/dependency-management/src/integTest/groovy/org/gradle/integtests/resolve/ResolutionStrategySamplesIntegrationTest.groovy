@@ -41,7 +41,7 @@ public class ResolutionStrategySamplesIntegrationTest extends AbstractIntegratio
                 conf "org.gradle:gradle-core:1.0"
                 conf "org:bar:default"
                 conf "org.software:some-library:1.2"
-                conf "org.codehaus:groovy-all:2.4.6"
+                conf "org.codehaus:groovy-all:2.4.9"
                 conf "log4j:log4j:1.2"
             }
             task resolveConf { doLast { configurations.conf.files } }
